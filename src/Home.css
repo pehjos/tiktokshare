@@ -1,0 +1,38 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	background-color: red;
+}
+
+.home__body {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.home__stories {
+	display: flex;
+	overflow: auto;
+	align-items: center;
+	flex: 0.2;
+}
+
+.home__stories::-webkit-scrollbar {
+	display: none;
+}
+
+.home__feed {
+	display: flex;
+	flex-direction: column;
+	flex: 0.5;
+	margin-top: 20px;
+}
+
+.home__feed::-webkit-scrollbar {
+	display: none;
+}
